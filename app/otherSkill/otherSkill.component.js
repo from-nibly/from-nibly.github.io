@@ -1,5 +1,4 @@
 System.register(['angular2/core', '../api/data.service'], function(exports_1) {
-    "use strict";
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -25,7 +24,9 @@ System.register(['angular2/core', '../api/data.service'], function(exports_1) {
                     var _this = this;
                     this.dataService = dataService;
                     dataService.getOtherSkills().then(function (skills) {
-                        _this.skills = skills;
+                        _this.skills1 = skills.splice(0, Math.floor(skills.length / 3));
+                        _this.skills2 = skills.splice(0, Math.floor(skills.length / 2));
+                        _this.skills3 = skills;
                     }).catch(function (error) {
                         console.log(error);
                     });
@@ -40,7 +41,7 @@ System.register(['angular2/core', '../api/data.service'], function(exports_1) {
                     __metadata('design:paramtypes', [data_service_1.DataService])
                 ], OtherSkillComponent);
                 return OtherSkillComponent;
-            }());
+            })();
             exports_1("OtherSkillComponent", OtherSkillComponent);
         }
     }
