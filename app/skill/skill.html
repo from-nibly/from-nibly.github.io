@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-lg-12 col-centered">
+    <div class="center-block" style="max-width:600px;">
+        <button type="button" class="btn btn-default" (click)="select(skill.name)" *ngFor="#skill of skills">
+          {{ skill.name }}
+        </button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12 col-centered">
+    <div *ngFor="#skill of skills" class="col-lg-12">
+      <div class="center-block text-center" *ngIf="skill.name === selected">
+        {{ skill.description }}
+      </div>
+    </div>
+  </div>
+</div>

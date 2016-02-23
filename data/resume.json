@@ -1,0 +1,55 @@
+{
+  "status": "Currently I am working at DOMO working in the Platform Engineering Team as a QA Engineer. I am working on projects such as karma unit testing frameworks and manual jacoco code coverage. I am seeking a challenging computer programming position in software development or QA or Development to increase my knowledge and skill set.",
+  "skills": [
+    { "name" : "node.js", "description" : "Used node.js for 2 applications at my job at and Jive 3 personal projects"},
+    { "name" :"Java", "description" : "Spent 90% of my time at jive using java and it’s deployment, editing and support tools."},
+    { "name" :"C#", "description" : "Worked with C# for two years at Novarad"},
+    { "name" :"Embedded Systems", "description" : "Designed and built a system to automate SIP phones using raspberry pis running linux with node.js"},
+    { "name" :"Angular", "description" : "Worked on the main website for Jive writing directives"},
+    { "name" :"Websockets", "description" : "Wrote 3 frameworks for websocket messaging and a websocket based pub-sub"}
+  ],
+  "otherSkills": [
+    "WPF/MVVM/MV",
+    "Maven",
+    "REST/HTTP",
+    "HL7",
+    "Linq",
+    "Java8 Streams",
+    "PostgreSQL",
+    "ADO.NET",
+    "Ubuntu/Debian",
+    "python",
+    "Grunt",
+    "Gulp",
+    "bash",
+    "feign",
+    "spock",
+    "Guice"
+  ],
+  "jobs": [ {
+    "title": "Developer of Awesome",
+    "company": "Jive Communications Inc. - Orem, UT",
+    "date": "Dec 2013 - March 2015",
+    "bullets": ["Developed an automation framework with embedded systems to remote control SIP phones to use in testing our infrastructure.",
+      "Created an automation framework that spins up dependencies using junit so developers could test with real databases while testing in jenkins."
+    ]
+  },{
+    "title": "Lead Automation Engineer",
+    "company": "Novarad Inc. - American Fork, UT",
+    "date": "Jan 2012- Dec 2013",
+    "bullets": ["Designed and built several test frameworks to create automated test cases more efficiently in Coded UI.",
+      "Trained 5 employees on Coded UI testing solutions to help them contribute test automation.",
+      "Managed up to 5 employees’ time."
+    ]
+  }],
+  "references": [{
+    "name": "Richard B Roach",
+    "number": "801.372.4520"
+  }, {
+    "name": "Craig Frost",
+    "number": "385.201.3780"
+  }, {
+    "name": "Matt Mace",
+    "number": "801.647.0070"
+  }]
+}
