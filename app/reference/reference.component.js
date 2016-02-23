@@ -24,7 +24,9 @@ System.register(['angular2/core', '../api/data.service'], function(exports_1) {
                     var _this = this;
                     this.dataService = dataService;
                     dataService.getReferences().then(function (references) {
-                        _this.references = references;
+                        _this.references1 = references.splice(0, Math.floor(references.length / 3));
+                        _this.references2 = references.splice(0, Math.floor(references.length / 2));
+                        _this.references3 = references;
                     }).catch(function (error) {
                         console.log(error);
                     });
