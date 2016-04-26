@@ -26,7 +26,15 @@
     "spock",
     "Guice"
   ],
-  "jobs": [ {
+  "jobs": [{
+    "title": "Senior Quality Assurance Engineer",
+    "company": "Domo Inc. - American Fork, UT",
+    "date": "March 2015 - present",
+    "bullets": ["Implemented DOM tests that run in unit style inside mocha/karma",
+      "Created modular system for testing an ETL UI",
+      "Created framework for testing ETL backends with wiremock"
+    ]
+  }, {
     "title": "Developer of Awesome",
     "company": "Jive Communications Inc. - Orem, UT",
     "date": "Dec 2013 - March 2015",
@@ -40,14 +48,6 @@
     "bullets": ["Designed and built several test frameworks to create automated test cases more efficiently in Coded UI.",
       "Trained 5 employees on Coded UI testing solutions to help them contribute test automation.",
       "Managed up to 5 employees’ time."
-    ]
-  },{
-    "title": "Senior Quality Assurance Engineer",
-    "company": "Domo Inc. - American Fork, UT",
-    "date": "March 2015 - present",
-    "bullets": ["Implemented DOM tests that run in unit style inside mocha/karma",
-      "Created modular system for testing an ETL UI",
-      "Created framework for testing ETL backends with wiremock"
     ]
   }],
   "references": [{
