@@ -1,7 +1,7 @@
 {
   "status": "Currently I am working at DOMO working in the Platform Engineering Team as a QA Engineer. I am working on projects such as karma unit testing frameworks and manual jacoco code coverage. I am seeking a challenging computer programming position in software development or QA or Development to increase my knowledge and skill set.",
   "skills": [
-    { "name" : "node.js", "description" : "Used node.js for 2 applications at my job at and Jive 3 personal projects"},
+    { "name" : "node.js", "description" : "Used node.js for 2 applications at my job at Jive and several personal projects"},
     { "name" :"Java", "description" : "Spent 90% of my time at jive using java and it’s deployment, editing and support tools."},
     { "name" :"C#", "description" : "Worked with C# for two years at Novarad"},
     { "name" :"Embedded Systems", "description" : "Designed and built a system to automate SIP phones using raspberry pis running linux with node.js"},
@@ -40,6 +40,14 @@
     "bullets": ["Designed and built several test frameworks to create automated test cases more efficiently in Coded UI.",
       "Trained 5 employees on Coded UI testing solutions to help them contribute test automation.",
       "Managed up to 5 employees’ time."
+    ]
+  },{
+    "title": "Senior Quality Assurance Engineer",
+    "company": "Domo Inc. - American Fork, UT",
+    "date": "March 2015 - present",
+    "bullets": ["Implemented DOM tests that run in unit style inside mocha/karma",
+      "Created modular system for testing an ETL UI",
+      "Created framework for testing ETL backends with wiremock"
     ]
   }],
   "references": [{
